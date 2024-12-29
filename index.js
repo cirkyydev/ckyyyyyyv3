@@ -1,18 +1,5 @@
 const { Client } = require('discord.js-selfbot-v13');
 const { joinVoiceChannel } = require('@discordjs/voice');
-const express = require("express");
-const app = express();
-app.get("/", (req, res) => {
-res.status (200). send ("Landing Page");
-});
-app.get("/about", (req, res) => {
-res.status (200). send ("About Page");
-});
-
-const port = 4000;
-app.listen (port, () => {
-console.log ('Site is running on port http: //127.0.0.1:${port}');
-});
 
 const client = new Client(); // All partials are loaded automatically
 
